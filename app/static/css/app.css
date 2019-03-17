@@ -24,26 +24,23 @@ body {
     margin-right: 20px;
 }
 
-.users {
-    display: flex;
-    align-items: center;
+.users, .user {
     min-width: 50%;
     width: 500px;
     border-radius: 5px;
     border-top: solid 4px #4A90E2;
-    padding: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin-bottom: 20px;
     background-color: #ffffff;
+}
+.users {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .user {
-    min-width: 40%;
-    border-radius: 5px;
-    border-top: solid 4px #4A90E2;
     padding: 10px 10px 10px 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #ffffff;
 }
 
 .photos-large {
