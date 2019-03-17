@@ -76,7 +76,14 @@ body {
 }
 
 .btns {
-    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btns button {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 #green {
