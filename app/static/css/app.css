@@ -77,7 +77,7 @@ body {
 
 .btns {
     margin: auto;
-    min-width: 205px;
+    max-width: 205px;
 }
 
 .btns button {
