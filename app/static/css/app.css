@@ -76,8 +76,9 @@ body {
 }
 
 .btns {
+    display: block !important;
     margin: auto;
-    max-width: 205px;
+    min-width: 205px;
 }
 
 .btns button {
