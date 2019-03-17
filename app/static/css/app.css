@@ -27,7 +27,8 @@ body {
 .users {
     display: flex;
     align-items: center;
-    width: 50%;
+    min-width: 50%;
+    width: 500px;
     border-radius: 5px;
     border-top: solid 4px #4A90E2;
     padding: 10px;
