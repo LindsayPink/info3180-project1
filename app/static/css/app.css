@@ -1,3 +1,102 @@
 body {
     padding-top: 5rem;
+    background-color: #EBF3FA;
+}
+
+.uList, .uList1{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.uList1 {
+    align-items: center;
+}
+
+.photos {
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    background-color: #ffffff;
+    margin: 5px;
+    float: left;
+    margin-right: 20px;
+}
+
+.users {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-radius: 5px;
+    border-top: solid 4px #4A90E2;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.user {
+    min-width: 40%;
+    border-radius: 5px;
+    border-top: solid 4px #4A90E2;
+    padding: 10px 10px 10px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #ffffff;
+}
+
+.photos-large {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    background-color: #ffffff;
+    margin: 5px 20px 20px 0;
+    float: left;
+}
+
+.details {
+    margin-left: 40px;    
+    width: 200px;
+    font-weight: bold;
+}
+
+.details p {
+    margin-bottom: 4px;
+}
+
+.bio {
+    width: 500px;
+    clear: both;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.btns {
+    margin: auto;
+}
+
+#green {
+    background-color: #7DD321;
+    border-color: #7DD321;
+}
+
+#blue {
+    background-color: #4A90E2;
+    border-color: #4A90E2;
+}
+
+p {
+    color: #676B78;
+}
+
+form div, h4, h3 {
+    font-weight: bold;
+    color: #1E1E1E;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
 }
