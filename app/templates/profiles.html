@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block main %}
+<h1 class="page-header">Profiles</h1>
+{% include 'flash_messages.html' %}
+
+<ul class="uList">
+    {% for user in users %}
+        <li class="users">
+            <img class="photos" src="{{ url_for('static', filename="uploads/" + user.photo) }} "/>
+            <div class="details">
+                <h4>{{ user.firstname }} {{ user.lastname }}</h4>
+                <p><img class="icon" src="{{ url_for('static', filename="icons/user.png") }}"/>{{ user.gender }}</p>
+                <p><img class="icon" src="{{ url_for('static', filename="icons/pin.png") }}"/>{{ user.location }}</p>
+            </div>
+            <a class="btn btn-primary" href="{{ url_for('user', userid=user.userid) }}" id="green">View Profile</a>
+        </li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
